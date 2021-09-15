@@ -340,7 +340,7 @@ library consolerr {
 
             mstore(add(stringPtr, add(stringLen, 0x20)), '0x')
             mstore(add(stringPtr, add(stringLen, 0x22)), hi)
-            mstore(add(stringPtr, add(stringLen, 0x44)), lo)
+            mstore(add(stringPtr, add(stringLen, 0x42)), lo)
             mstore(stringPtr, add(stringLen, 42))
         }
     }
