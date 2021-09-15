@@ -1,0 +1,2 @@
+# consolerr
+Solidity error logging
