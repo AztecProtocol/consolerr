@@ -61,66 +61,66 @@ consolerr can log the following types:
 ```
 interface consolerr
 {
-    function errorBytes(string memory reasonString, bytes memory varA) internal pure {}
+    function errorBytes(string memory reasonString, bytes memory varA) internal pure;
 
-    function error(string memory reasonString, bytes32 varA) internal pure {}
+    function error(string memory reasonString, bytes32 varA) internal pure;
 
     function error(
         string memory reasonString,
         bytes32 varA,
         bytes32 varB
-    ) internal pure {}
+    ) internal pure;
 
     function error(
         string memory reasonString,
         bytes32 varA,
         bytes32 varB,
         bytes32 varC
-    ) internal pure {}
+    ) internal pure;
 
-    function errorBytes32(string memory reasonString, bytes32 varA) internal pure {}
+    function errorBytes32(string memory reasonString, bytes32 varA) internal pure;
 
     function errorBytes32(
         string memory reasonString,
         bytes32 varA,
         bytes32 varB
-    ) internal pure {}
+    ) internal pure;
 
     function errorBytes32(
         string memory reasonString,
         bytes32 varA,
         bytes32 varB,
         bytes32 varC
-    ) internal pure {}
+    ) internal pure;
 
-    function errorAddress(string memory reasonString, address varA) internal pure {}
+    function errorAddress(string memory reasonString, address varA) internal pure;
 
     function errorAddress(
         string memory reasonString,
         address varA,
         address varB
-    ) internal pure {}
+    ) internal pure;
 
     function errorAddress(
         string memory reasonString,
         address varA,
         address varB,
         address varC
-    ) internal pure {}
+    ) internal pure;
 
-    function errorUint(string memory reasonString, uint256 varA) internal pure {}
+    function errorUint(string memory reasonString, uint256 varA) internal pure;
 
     function errorUint(
         string memory reasonString,
         uint256 varA,
         uint256 varB
-    ) internal pure {}
+    ) internal pure;
 
     function errorUint(
         string memory reasonString,
         uint256 varA,
         uint256 varB,
         uint256 varC
-    ) internal pure {}
+    ) internal pure;
 }
 ```
