@@ -1,0 +1,20 @@
+{
+  "name": "consolerr",
+  "version": "0.1.0",
+  "description": "Solidity error logging",
+  "main": "index.js",
+  "repository": "git@github.com:AztecProtocol/consolerr.git",
+  "author": "Aztec",
+  "license": "Apache-2.0",
+  "private": false,
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.0",
+    "@nomiclabs/hardhat-waffle": "^2.0.0",
+    "chai": "^4.2.0",
+    "ethereum-waffle": "^3.0.0",
+    "ethers": "^5.0.0",
+    "hardhat": "^2.6.4",
+    "prettier": "^2.4.1",
+    "prettier-plugin-solidity": "^1.0.0-beta.18"
+  }
+}
